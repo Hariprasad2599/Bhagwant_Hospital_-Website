@@ -1,0 +1,299 @@
+body,
+html {
+    background-color: #fff;
+    font-family: "Playfair Display", serif;
+    overflow-x: hidden !important;
+    padding: 0 !important;
+    margin: 0;
+}
+    .logo-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo h1 {
+        color: #0f3ab0;
+        font-size: 2vw;
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+        margin-right: 10px; /* Adjust margin as needed */
+    }
+
+    .logo img {
+        max-width: 5vw;
+        height: auto;
+    }
+
+* {
+    text-decoration: none !important;
+}
+
+.nav {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    background-color: #fff;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nav .links {
+    display: flex;
+    gap: 20px; /* Add space between links */
+}
+
+.nav .links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    transition: color 0.4s ease-in-out;
+}
+
+.nav .links .mainlink {
+    color: #e0501b;
+}
+
+.nav .links a:hover {
+    color: #007bff;
+}
+
+.nav .links .button {
+    padding: 10.5px 36px;
+    font-size: 14px;
+    color: #fff; /* Set button text color to white */
+    background-color: #007bff; /* Set button background color */
+    border: 1px solid #007bff;
+    border-radius: 5px; /* Add border-radius to the button */
+    transition: all 0.4s ease-in-out;
+}
+
+.nav .links .button:hover {
+    background-color: #0056b3; /* Change button background color on hover */
+}
+
+.landingText h1 {
+    font-size: 6vw;
+    margin: 5vw !important;
+}
+
+.landingText h3 {
+    margin: 10px !important;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #777777;
+    font-family: 'Playfair Display', serif;
+    padding-right: 15vw;
+}
+.landingText .btn {
+    width: 120px;
+    margin-top: 30px;
+    padding: 14px 20px 12px 20px;
+    background-color: #007bff;
+    border-radius: 45px;
+    text-align: center;
+}
+
+.landingText .btn a {
+    font-size: 1.2vw;
+    color: #fff;
+}
+
+.landingImage {
+    position: absolute;
+    right: 0; 
+    top: 0;
+    height: 90vh;
+    padding: 15vw;
+}
+
+.landingImage img {
+    width: 28vw;
+    display: block;
+    margin: auto ;
+}
+/* Services CSS */
+.about {
+    height: 300;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.aboutText {
+    flex: 1; 
+}
+
+.aboutList {
+    flex: 0 0 auto; 
+    max-width: 300px;
+    right: 0; 
+    top: 0;
+    height: 90vh;
+    padding: 10vw;
+
+}
+.aboutList li {
+    margin-bottom: 25px;
+}
+ol {
+    list-style: none;
+    color: #e0501b;
+}
+
+ol li {
+    font-size: 34px;
+    position: relative;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+li p {
+    font: 16px;
+    color: #000;
+    padding-left: 60px;
+    line-height: 30px;
+    opacity: 0.6;
+}
+
+li span {
+    position: absolute;
+    line-height: 25px;
+    font-weight: 600;
+}
+/* doctors*/
+#doctors {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+
+.doctor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.doctor-card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.doctor-card img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Info Section css */
+.infoSection {
+    height: 200px;
+}
+.infoHeader {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.infoCards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+.card {
+    position: relative;
+    height: 360px;
+    width: 360px;
+    background: #fff;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.9), 0 10px 10px rgba(0, 0, 0, 0.9);
+}
+
+.cardImg {
+    width: 150px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+
+.cardContent {
+    padding: 0 20px;
+}
+
+.cardContent p {
+    line-height: 30px;
+    opacity: 0.6;
+}
+
+.cardBtn {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px;
+    background-color: #ededed;
+    width: 25px;
+    height: 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.2s;
+}
+
+.cardBtn:hover {
+    background-color: #2f8be0;
+}
+
+.cardIcon {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 16px;
+}
+/* footer */
+.footer-box
+{
+    padding: 20px;
+
+}
+.footer-box .fa 
+{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    cursor: pointer;
+}
+
+hr
+{
+    background-color: #fff;
+}  
+.contact-bar {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.contact-bar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
